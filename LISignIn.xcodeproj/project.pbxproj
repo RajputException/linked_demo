@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512F0EF621105D7A00C0CE37 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F0EF521105D7A00C0CE37 /* FeedViewController.swift */; };
+		51ACA238210884EB00F875C8 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ACA237210884EA00F875C8 /* UserDetailsViewController.swift */; };
+		51ACA2412109D23E00F875C8 /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ACA2402109D23E00F875C8 /* linkedin-sdk.framework */; };
+		51D7119C210EEA9300637582 /* CustButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7119B210EEA9300637582 /* CustButton.swift */; };
+		51E5EBE9210AE5800076C557 /* SharePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E5EBE8210AE5800076C557 /* SharePostViewController.swift */; };
+		531442E231FF7F4D00888762 /* Pods_LISignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D665C48AF1BE00D7557F67 /* Pods_LISignIn.framework */; };
 		C04133461C282A8200C48FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04133451C282A8200C48FAE /* AppDelegate.swift */; };
 		C04133481C282A8200C48FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04133471C282A8200C48FAE /* ViewController.swift */; };
 		C041334B1C282A8200C48FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04133491C282A8200C48FAE /* Main.storyboard */; };
 		C041334D1C282A8200C48FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C041334C1C282A8200C48FAE /* Assets.xcassets */; };
 		C04133501C282A8200C48FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C041334E1C282A8200C48FAE /* LaunchScreen.storyboard */; };
+		C04133581C282A9D00C48FAE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04133571C282A9D00C48FAE /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33D665C48AF1BE00D7557F67 /* Pods_LISignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LISignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		512F0EF521105D7A00C0CE37 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		51ACA237210884EA00F875C8 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		51ACA2402109D23E00F875C8 /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
+		51ACA2422109D28700F875C8 /* LISignIn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LISignIn-Bridging-Header.h"; sourceTree = "<group>"; };
+		51D7119B210EEA9300637582 /* CustButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustButton.swift; sourceTree = "<group>"; };
+		51E5EBE8210AE5800076C557 /* SharePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePostViewController.swift; sourceTree = "<group>"; };
+		7465DCE9337A9C9110617761 /* Pods-LISignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LISignIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LISignIn/Pods-LISignIn.debug.xcconfig"; sourceTree = "<group>"; };
 		C04133421C282A8200C48FAE /* LISignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LISignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04133451C282A8200C48FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C04133471C282A8200C48FAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,8 @@
 		C041334C1C282A8200C48FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C041334F1C282A8200C48FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04133511C282A8200C48FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04133571C282A9D00C48FAE /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D64C53470AA11352FD9EA714 /* Pods-LISignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LISignIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-LISignIn/Pods-LISignIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51ACA2412109D23E00F875C8 /* linkedin-sdk.framework in Frameworks */,
+				531442E231FF7F4D00888762 /* Pods_LISignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EA21ED08A3E5638A5A0DD05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33D665C48AF1BE00D7557F67 /* Pods_LISignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5250F766C613C45FD8298A43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7465DCE9337A9C9110617761 /* Pods-LISignIn.debug.xcconfig */,
+				D64C53470AA11352FD9EA714 /* Pods-LISignIn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C04133391C282A8200C48FAE = {
 			isa = PBXGroup;
 			children = (
 				C04133441C282A8200C48FAE /* LISignIn */,
 				C04133431C282A8200C48FAE /* Products */,
+				5250F766C613C45FD8298A43 /* Pods */,
+				1EA21ED08A3E5638A5A0DD05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +93,18 @@
 			isa = PBXGroup;
 			children = (
 				C04133451C282A8200C48FAE /* AppDelegate.swift */,
+				51E5EBE8210AE5800076C557 /* SharePostViewController.swift */,
 				C04133471C282A8200C48FAE /* ViewController.swift */,
+				51D7119B210EEA9300637582 /* CustButton.swift */,
+				C04133571C282A9D00C48FAE /* WebViewController.swift */,
 				C04133491C282A8200C48FAE /* Main.storyboard */,
+				51ACA237210884EA00F875C8 /* UserDetailsViewController.swift */,
+				512F0EF521105D7A00C0CE37 /* FeedViewController.swift */,
 				C041334C1C282A8200C48FAE /* Assets.xcassets */,
 				C041334E1C282A8200C48FAE /* LaunchScreen.storyboard */,
 				C04133511C282A8200C48FAE /* Info.plist */,
+				51ACA2422109D28700F875C8 /* LISignIn-Bridging-Header.h */,
+				51ACA2402109D23E00F875C8 /* linkedin-sdk.framework */,
 			);
 			path = LISignIn;
 			sourceTree = "<group>";
@@ -71,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C04133541C282A8200C48FAE /* Build configuration list for PBXNativeTarget "LISignIn" */;
 			buildPhases = (
+				CA7C9850B4F9F95FF0E77F22 /* [CP] Check Pods Manifest.lock */,
 				C041333E1C282A8200C48FAE /* Sources */,
 				C041333F1C282A8200C48FAE /* Frameworks */,
 				C04133401C282A8200C48FAE /* Resources */,
+				5703973A6B534E22DE1E9099 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -91,11 +138,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Appcoda;
 				TargetAttributes = {
 					C04133411C282A8200C48FAE = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
@@ -130,13 +178,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5703973A6B534E22DE1E9099 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LISignIn/Pods-LISignIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LISignIn/Pods-LISignIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7C9850B4F9F95FF0E77F22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LISignIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C041333E1C282A8200C48FAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C04133481C282A8200C48FAE /* ViewController.swift in Sources */,
+				51E5EBE9210AE5800076C557 /* SharePostViewController.swift in Sources */,
+				51D7119C210EEA9300637582 /* CustButton.swift in Sources */,
+				C04133581C282A9D00C48FAE /* WebViewController.swift in Sources */,
+				51ACA238210884EB00F875C8 /* UserDetailsViewController.swift in Sources */,
 				C04133461C282A8200C48FAE /* AppDelegate.swift in Sources */,
+				512F0EF621105D7A00C0CE37 /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,13 +262,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -203,6 +303,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 			};
 			name = Debug;
 		};
@@ -214,13 +315,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -239,29 +348,48 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		C04133551C282A8200C48FAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7465DCE9337A9C9110617761 /* Pods-LISignIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LISignIn",
+				);
 				INFOPLIST_FILE = LISignIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.LISignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LISignIn/LISignIn-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C04133561C282A8200C48FAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64C53470AA11352FD9EA714 /* Pods-LISignIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LISignIn",
+				);
 				INFOPLIST_FILE = LISignIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.LISignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LISignIn/LISignIn-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -284,6 +412,7 @@
 				C04133561C282A8200C48FAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
